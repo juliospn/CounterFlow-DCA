@@ -1,3 +1,5 @@
+//index.html
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -22,9 +24,6 @@
                     <li><a href="#DCA-sentiment">DCA e Sentimento do Mercado</a></li>
                     <li><a href="#DCA-benefits">DCA | prós e contras</a></li>
                     <li><a href="#DCA-comparison">Comparando o DCA</a></li>
-                    <li><a href="#indicador-mvrv">Conciliando com o indicador MVRV</a></li>
-                    <li><a href="#indicador-mvrv">O que é o funding rate ?</a></li>
-                    <li><a href="#indicador-mvrv">Como aplicar a estratégia</a></li>
                 </ul>
                 <ul class="menu-options">
                     <li id="light-mode-button">☀ | Light Mode</li>
@@ -36,7 +35,7 @@
     <main class="conteudo">
         <section class="hero">
             <h1>DCA com Foco no Sentimento do Mercado</h1>
-            <h2 id="chat-gpt">A estratégia de compras regulares nos pontos de sobrevenda do Bitcoin. Consiste em fazer aportes pequenos e constantes, indo contra a manada nos pontos de exaustão da tendência. Venha ver!</h2>
+            <h2 id="chat-gpt">A estratégia de compras regulares nos pontos de sobrevenda do ciclo do Bitcoin. É simples, mas requer disciplina e paciência!</h2>
         </section>
         <section>
             <div class="conteudo-centralizado">
@@ -84,30 +83,6 @@
                     longo do tempo.</p>
             </div>
         </section>
-        <section>
-            <div class="conteudo-centralizado">
-
-                <h3 id="indicador-mvrv">Conciliando com o indicador MVRV</h3>
-                <p>O indicador MRVR (Market Value to Realized Value) é uma ferramenta analítica que tem sido utilizada para estudar o ciclo do Bitcoin. Esse indicador foi proposto por Murad Mahmudov e David Puell em 2018 e se baseia na relação entre o valor de mercado atual do Bitcoin e o valor de mercado realizado (ou "realizado") do Bitcoin.</p>
-                <p>O MRVR é usado para analisar a sobrevalorização ou subvalorização do Bitcoin em relação ao seu valor histórico, que é representado pelo valor de mercado realizado. Quando o MRVR é maior do que 3,5, isso pode indicar uma possível sobrevalorização do Bitcoin e um possível pico de preço no horizonte. Por outro lado, quando o MRVR é inferior a 1,0, pode indicar uma possível subvalorização do Bitcoin e uma oportunidade de compra.</p>
-            </div>
-        </section>
-        <section>
-            <div class="conteudo-centralizado">
-
-                <h3 id="funding-rate">O que é o funding rate ?</h3>
-                <p>O funding rate do Bitcoin é uma taxa de financiamento que os traders pagam ou recebem ao negociar contratos futuros de Bitcoin. Se o funding rate for positivo, os traders que estão comprando o contrato futuros pagam aos traders que estão vendendo. Se o funding rate for negativo, os traders que estão vendendo pagam aos que estão comprando.</p>
-                <p>Em altas de preço do Bitcoin, o funding rate tende a ser positivo, já que há mais traders comprando do que vendendo contratos futuros. Isso pode indicar que há mais otimismo no mercado em relação ao preço futuro do Bitcoin. Já em quedas de preço, o funding rate tende a ser negativo, indicando que há mais traders vendendo do que comprando, o que pode sinalizar um sentimento mais pessimista em relação ao futuro preço do Bitcoin. No entanto, o funding rate pode variar dependendo do momento e do comportamento do mercado, portanto é importante analisá-lo juntamente com outros indicadores para tomar decisões informadas de negociação.</p>
-            </div>
-        </section>
-        <section>
-            <div class="conteudo-centralizado">
-
-                <h3 id="how-to">Como aplicar a estratégia</h3>
-                <p>A estratégia do funding rate com DCA e o indicador MRVR envolve primeiro utilizar o indicador MRVR para entender em qual momento do ciclo do Bitcoin se está. Se o MRVR estiver na região de 1, é ideal fazer aportes pequenos e constantes sempre que os gatilhos de funding rate muito elevados (em níveis negativos) aparecerem. Esses gatilhos sinalizam uma fase de ciclo de baixa na região sobrevendida, que é uma ótima oportunidade de compra a longo prazo no mercado spot (à vista).</p>
-                <p>Além disso, é possível usar a mesma estratégia quando o preço do Bitcoin entrar na parte do ciclo de sobre-comprado. Nesse caso, é necessário analisar o funding rate em conjunto com o MRVR e fazer pequenas vendas para gerar caixa quando a época de sobrevenda chegar novamente.</p>
-            </div>
-        </section>
     </main>
     <footer>
         <p>© 2023 | CounterFlow DCA Strategy</p>
@@ -117,3 +92,216 @@
 </body>
 
 </html>
+
+==================================================================
+//style.css
+
+body {
+    background-color: #2a2a2a;
+    color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.menu-lateral .logo {
+    padding: 20px;
+}
+
+.menu-lateral .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    background-color: #363636;
+    padding: 10px;
+}
+
+.menu-topics {
+    height: 650px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.menu-lateral li {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14.5px;
+}
+
+.menu-lateral li:hover {
+    background-color: #4d4d4d;
+    color: #FFA500;
+}
+
+.menu-lateral a {
+    display: block;
+    color: #ffffff;
+    font-size: 14.5px;
+    text-decoration: none;
+}
+
+.menu-topics ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #b2b2b2;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.menu-options {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-options li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-lateral .ativo {
+    background-color: #535353;
+}
+
+.menu-topics a:hover {
+    color: #FFA500;
+    transition: 0.3s;
+}
+
+.conteudo {
+    margin-left: 270px;
+    padding-left: 20px;
+}
+
+.conteudo-centralizado {
+    min-width: 250px;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #363636;
+    color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FFA500;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+footer p {
+    padding-left: 270px;
+}
+
+section:nth-of-type(odd) {
+    background-color: #2a2a2a;
+}
+
+section:nth-of-type(even) {
+    background-color: #3c3c3c;
+}
+
+section:nth-of-type(even) h3 {
+    color: #FFA500;
+}
+
+.hero .dark {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 600px) {
+    .menu-lateral {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .menu-lateral .logo {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu-lateral ul {
+        width: 100%;
+    }
+
+    .menu-lateral ul li {
+        display: block;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu-lateral ul li:last-child {
+        border-bottom: none;
+    }
+
+    .menu-lateral ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-lateral ul li a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+}

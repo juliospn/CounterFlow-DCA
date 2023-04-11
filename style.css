@@ -1,44 +1,124 @@
 body {
-    background-color: #191919;
-    color: #FFFFFF;
+    background-color: #2a2a2a;
+    color: #e6e6e6;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
-header {
-    background-color: #FFA500;
+.menu-lateral .logo {
     padding: 20px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
+.menu-lateral .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
-nav a {
-    color: #FFFFFF;
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    background-color: #363636;
+    padding: 10px;
+}
+
+.menu-topics {
+    height: 650px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.menu-lateral li {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14.5px;
+}
+
+.menu-lateral li:hover {
+    background-color: #4d4d4d;
+    color: #FFA500;
+}
+
+.menu-lateral a {
+    display: block;
+    color: #ffffff;
+    font-size: 14.5px;
     text-decoration: none;
 }
 
+.menu-topics ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #b2b2b2;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.menu-topics li.active {
+    background-color: rgb(100, 100, 100);
+}
+
+.menu-options {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-options li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-topics a:hover {
+    color: #FFA500;
+    transition: 0.3s;
+}
+
+.conteudo {
+    margin-left: 270px;
+    padding-left: 20px;
+}
+
+.conteudo-centralizado {
+    min-width: 250px;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
 .hero {
-    background-color: #1A1A1A;
+    background-color: #363636;
     color: #FFFFFF;
     padding: 100px;
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #FFA500;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section {
+    padding: 50px;
 }
 
 h2 {
     font-size: 30px;
     margin-bottom: 50px;
-}
-
-section {
-    padding: 50px;
 }
 
 h3 {
@@ -57,8 +137,73 @@ li {
 }
 
 footer {
-    background-color: #FFA500;
+    background-color: #2a2a2a;
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+footer p {
+    padding-left: 270px;
+}
+
+section:nth-of-type(odd) {
+    background-color: #2a2a2a;
+}
+
+section:nth-of-type(even) {
+    background-color: #3c3c3c;
+}
+
+section:nth-of-type(even) h3 {
+    color: #FFA500;
+}
+
+.hero .dark {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 600px) {
+    .menu-lateral {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .menu-lateral .logo {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu-lateral ul {
+        width: 100%;
+    }
+
+    .menu-lateral ul li {
+        display: block;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu-lateral ul li:last-child {
+        border-bottom: none;
+    }
+
+    .menu-lateral ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-lateral ul li a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
 }
