@@ -14,8 +14,9 @@
     <header>
         <nav>
             <div id="menu-lateral" class="menu-lateral">
-                <div class="logo">
-                    <a href="#">CounterFlow DCA Strategy</a>
+                <div style="
+                text-align: center;">
+                    <a href="#DCA"><img src="/logo.png" class="logo"></a>
                 </div>
                 <ul class="menu-topics">
                     <li><a href="#DCA">O que é DCA ?</a></li>
@@ -25,6 +26,7 @@
                     <li><a href="#indicador-nupl">Conciliando com o indicador NUPL</a></li>
                     <li><a href="#funding-rate">O que é o Funding Rate ?</a></li>
                     <li><a href="#how-to">Como aplicar a estratégia</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
                 <ul class="menu-options">
                     <li id="light-mode-button">☀ | Light Mode</li>
@@ -33,9 +35,9 @@
             </div>
         </nav>
     </header>
-    <main class="conteudo">
-        <section class="hero">
-            <h1>DCA Inteligente em pontos de exaustão de tendencia</h1>
+    <main class="conteudo" >
+        <section class="hero" id="particles-js">
+            <h1 >DCA Inteligente em pontos de exaustão da tendencia</h1>
             <h2 id="chat-gpt">A estratégia de compras regulares nos pontos de sobrevenda do Bitcoin. Consiste em fazer
                 aportes pequenos e constantes, indo contra a manada no momento de exaustão da tendência de baixa. Venha
                 ver!</h2>
@@ -149,13 +151,40 @@
 
                 <h3 id="how-to">Como aplicar a estratégia</h3>
                 <p>Menos é mais. "De quatro anos em quatro anos" um ciclo é iniciado devido ao halving, que provoca altas e logo depois correções de preço. A estratégia do DCA com Funding Rate e NUPL envolve primeiro utilizar o indicador NUPL para entender
-                    em qual momento do ciclo do Bitcoin se está.  Se o NUPL estiver em valores menores que 20%, o ideal é
+                    em qual momento do ciclo do Bitcoin se está.</p> <p> Se o NUPL estiver em valores menores que 20%, o ideal é
                     fazer aportes pequenos e constantes sempre que os gatilhos de funding rate aparecerem. Esses
                     gatilhos sinalizam uma fase de ciclo de baixa na região sobrevendida, que podem ser uma ótima oportunidade
                     de compra pensando no médio e longo prazo.</p>
                 <p>Além disso, é possível usar a mesma estratégia quando o preço do Bitcoin entrar na parte do ciclo de
                     sobrecomprado. Nesse caso, também se utiliza do NUPL e do Funding Rate para realizar pequenas vendas
                     na intenção de acumular caixa para quando a época de sobrevenda chegar novamente.</p>
+            </div>
+        </section>
+        <section id="contact" class="form-section">
+            <div class="form-container"> 
+              <div class="form-header">
+                <h5>Entre em contato conosco!</h5>
+                <h6>Se você tiver alguma dúvida ou sugestão sobre nossa Extensão de Alerta de Indicador Bitcoin ou Estratégia DCA CounterFlow, sinta-se à vontade para nos enviar uma mensagem usando o formulário abaixo.</h6>
+              </div>
+              <form action="https://formspree.io/f/xnqyooyw" method="POST">
+                <div class="form-group form-inline">
+                  <label for="fname">Name:</label>
+                  <input type="text" class="form-control" name="nome" required> 
+                  <label for="email">Email:</label>
+                  <input type="text" class="form-control" name="email" required>
+                </div>
+                <div class="form-group form-inline">
+                  <label for="subject">Subject:</label>
+                  <input type="text" class="form-control" name="subject">
+                </div>
+                <div class="form-message">
+                  <label for="message">Message:</label>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" required></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Send Message" class="form-submit-btn">
+                </div>
+              </form>
             </div>
         </section>
     </main>
@@ -166,6 +195,8 @@
     <script src="lightmode.js"></script>
     <script src="menu.js"> </script>
     <script src="zoom.js"> </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

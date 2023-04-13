@@ -1,24 +1,17 @@
-const hamburger = document.querySelector('.hamburger');
-const menuOverlay = document.querySelector('.menu-overlay');
-
-hamburger.addEventListener('click', () => {
-  menuOverlay.classList.toggle('active');
-});
-
-window.addEventListener('resize', function() {
-  if (window.innerWidth < 600) {
-    document.querySelector('.hamburger').style.display = 'block';
-    document.querySelector('.menu-overlay').style.display = 'block';
-  } else {
-    document.querySelector('.hamburger').style.display = 'none';
-    document.querySelector('.menu-overlay').style.display = 'none';
-    document.querySelector('.menu-lateral').classList.remove('active');
+window.addEventListener('scroll', function() {
+  const navLinks = document.querySelectorAll('nav ul li');
+  const sections = document.querySelectorAll('section');
+  let currentSectionIndex = 0;
+  for (let i = 0; i < sections.length; i++) {
+    const section = sections[i];
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop) {
+      currentSectionIndex = i;
+    } else {
+      break;
+    }
   }
-});
-
-const menuHamburgerButton = document.getElementById("menu-hamburger-button");
-const menuLateral = document.getElementById("menu-lateral");
-
-menuHamburgerButton.addEventListener("click", function() {
-    menuLateral.classList.toggle("active");
+  navLinks.forEach(link => link.classList.remove('active'));
+  const currentNavLink = navLinks[currentSectionIndex];
+  currentNavLink.classList.add('active');
 });
