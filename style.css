@@ -430,3 +430,11 @@ input {
         margin-left: 0px;
     }
 }
+
+@media only screen and (max-height: 730px) {
+
+    .logo {
+        width: 210px;
+        margin-bottom: 15px;
+    }
+}
