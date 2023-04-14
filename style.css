@@ -38,9 +38,8 @@ body {
 }
 
 .menu-topics {
-    height: calc(100vh - 200px); /* Subtrai a altura do menu-options da altura total da janela */
+    height: calc(100vh - 300px); /* Subtrai a altura do menu-options da altura total da janela */
     margin-top: calc(16vh - 105px);
-    position: relative;
 }
 
 .menu-lateral li {
@@ -76,12 +75,16 @@ body {
 
 .menu-options {
     position: absolute;
-    left: 0;
+    left: -10px;
     width: 100%;
-    padding: 10px;
     box-sizing: border-box;
     border-top: 1px solid #FFFFFF;
     margin-top: 32px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
 }
 
 .menu-options li:hover {
