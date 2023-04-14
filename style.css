@@ -26,6 +26,7 @@ body {
     bottom: 0;
     width: 280px;
     max-height: 100vh;
+    min-height: 650px;
     background-color: #363636;
     padding: 10px;
     z-index: 5;
@@ -83,6 +84,7 @@ body {
     padding-top: 18px;
     display: flex;
     justify-content: space-evenly;
+    bottom: 0;
 }
 
 .menu-options li:hover {
@@ -97,7 +99,7 @@ body {
 
 .conteudo {
     margin-left: 270px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .conteudo-centralizado {
