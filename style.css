@@ -39,7 +39,7 @@ body {
 
 .menu-topics {
     height: calc(100vh - 300px); /* Subtrai a altura do menu-options da altura total da janela */
-    margin-top: calc(16vh - 105px);
+    margin-top: calc(19vh - 105px);
 }
 
 .menu-lateral li {
@@ -79,7 +79,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     border-top: 1px solid #FFFFFF;
-    margin-top: 32px;
+    margin-top: 12px;
     padding-top: 18px;
     padding-bottom: 8px;
     display: flex;
