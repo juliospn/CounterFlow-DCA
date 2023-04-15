@@ -88,7 +88,6 @@ body {
     left: -10px;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 12px;
     padding-top: 8px;
     display: flex;
     justify-content: space-evenly;
@@ -334,12 +333,12 @@ label {
 }
 
 #light-mode-button {
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     margin-left: 4px;
 }
 
 #linguage-button {
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 input {
@@ -376,7 +375,6 @@ input {
 
 .indicadores p {
     margin-bottom: 0;
-    text-align: ;
 }
 
 .negative {
