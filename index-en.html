@@ -19,6 +19,20 @@
                 text-align: center;">
                     <a href="#DCA"><img src="./img/logo.png" class="logo"></a>
                 </div>
+                <div class="div-indicadores">
+                    <div class="indicadores">
+                    <p>Bitcoin Price:</p>
+                    <div id="price" class="indicadores">Loading...</div>
+                </div>
+                    <div class="indicadores">
+                        <p>Funding Rate: </p>
+                        <div id="funding-rate" style="padding-left: 5px;">Loading...</div>
+                    </div>
+                    <div class="indicadores" style="padding-left: 20px;">
+                        <p>NUPL: </p>
+                        <div id="nupl-value" style="padding-left: 5px;">Loading...</div>
+                    </div>
+                </div>
                 <ul class="menu-topics">
                     <li><a href="#DCA">What is DCA?</a></li>
                     <li><a href="#DCA-sentiment">DCA and Market Sentiment</a></li>
@@ -30,8 +44,8 @@
                     <li><a href="#contact">Get in touch with us!</a></li>
                 </ul>
                 <ul class="menu-options">
-                    <li id="light-mode-button">☀ | Light Mode</li>
-                    <li id="language-button" class=""><a href="./index.html">⚑ | Language</a></li>
+                    <li id="light-mode-button" style="margin-bottom: 7px;">☀ | Light Mode</li>
+                    <li id="language-button" style="margin-bottom: 7px;"><a href="./index.html">⚑ | Language</a></li>
                 </ul>
             </div>
         </nav>
@@ -80,11 +94,7 @@
         <section>
             <div class="conteudo-centralizado">
                 <h3 id="DCA-comparison">Comparison with "Buy the Dip" strategy</h3>
-                <p>In the traditional market, especially in the American stock market, which is the most liquid and
-                    valuable in the world, since the breakdown of the gold standard in 1971, the stock market is highly
-                    correlated with financial stimuli. There are corrections and drops, but the SP 500 index is always
-                    rising, even after deep crises such as the one in 2008. This has allowed investors to abuse reckless
-                    strategies that make sense in this scenario.</p>
+                <p>In the traditional market, especially in the American stock market, which is the most liquid and valuable in the world, since the breaking of the gold standard in 1971, the stock market has been highly correlated to financial stimuli. There are corrections and drops, but the S&P 500 index is always rising, even after deep crises such as those of 2008 and 2000. This has allowed investors to abuse "reckless" strategies that make sense in this majority bullish scenario.</p>
                 <figure class="image-zoom">
                     <img class="img" src="./img/Buy The Dip vs DCA .png"
                         alt="Gráfico comparando estratégias Buy The Dip x DCA">
@@ -94,12 +104,8 @@
                             href="https://bastter.com/mercado/forum/873181/buy-the-dip-vs-dca"> Bastter.com </a>
                     </figcaption>
                 </figure>
-                <p>One of these strategies is "Buy the Dip" or even the famous "Buy and Hold". However, in the Bitcoin
-                    market, which is very volatile and cyclical, these strategies do not work well. Therefore, a study
-                    compared the Buy the Dip strategy with the DCA strategy and showed that it is very difficult to get
-                    the timing right, even in the traditional market, and yet the performance of the DCA strategy is not
-                    inferior to that of the Buy the Dip strategy. For the emotional well-being of the investor, the DCA
-                    strategy turns out to be much better.</p>
+                <p>One of these "reckless" strategies that work well only in bullish markets is "Buy the Dip" or even the famous "Buy and Hold". However, in the Bitcoin market, which is highly volatile and cyclical, these strategies do not work well. The image above shows a study that compared the "Buy the Dip" strategy with the DCA strategy and showed that, even miraculously knowing the "bottom" of market drops in the traditional market, the DCA strategy still outperformed the "Buy the Dip" strategy.</p>
+                <p>In other words, in most situations, the concern and stress of trying to time the bottom is not worth it. For the emotional well-being of the investor and even in terms of performance, the DCA strategy ends up being much better, as it is not necessary to worry about market prices and news, only small and constant investments. It is from this analysis that a mixed strategy emerges, which takes advantage of and combines the benefits of each strategy, especially for the Bitcoin market, which does not only experience growth but also cycles.</p>
             </div>
         </section>
         <section>
@@ -206,6 +212,8 @@
     <script src="./js/zoom.js"> </script>
     <script src="./js/lightmode.js"> </script>
     <script src="./js/menu.js"></script>
+    <script src="./nupl.js"></script>
+    <script src="./popup.js"></script>
 </body>
 
 </html>

@@ -19,6 +19,20 @@
                 text-align: center;">
                     <a href="#DCA"><img src="./img/logo.png" class="logo"></a>
                 </div>
+                <div class="div-indicadores">
+                    <div class="indicadores">
+                    <p>Bitcoin Price:</p>
+                    <div id="price" class="indicadores">Loading...</div>
+                </div>
+                    <div class="indicadores">
+                        <p>Funding Rate: </p>
+                        <div id="funding-rate" style="padding-left: 5px;">Loading...</div>
+                    </div>
+                    <div class="indicadores" style="padding-left: 20px;">
+                        <p>NUPL: </p>
+                        <div id="nupl-value" style="padding-left: 5px;">Loading...</div>
+                    </div>
+                </div>
                 <ul class="menu-topics">
                     <li><a href="#DCA">O que é DCA ?</a></li>
                     <li><a href="#DCA-sentiment">DCA e Sentimento do Mercado</a></li>
@@ -30,8 +44,8 @@
                     <li><a href="#contact">Contato</a></li>
                 </ul>
                 <ul class="menu-options">
-                    <li id="light-mode-button">☀ | Light Mode</li>
-                    <li id="language-button" class=""><a href="./index-en.html">⚑ | Idioma</a></li>
+                    <li id="light-mode-button" style="margin-bottom: 7px;">☀ | Light Mode</li>
+                    <li id="language-button" style="margin-bottom: 7px;"><a href="./index-en.html">⚑ | Idioma</a></li>
                 </ul>
             </div>
         </nav>
@@ -85,22 +99,26 @@
                 <p>No mercado tradicional, principalmente no mercado de ações americano, que é o mais líquido e valioso
                     do mundo, desde o rompimento do lastro do ouro em 1971, o mercado acionário está altamente
                     correlacionado aos estímulos financeiros. Há correções e quedas, mas o índice do SP 500 está sempre
-                    subindo, mesmo após crises profundas como a de 2008. Isso permitiu que os investidores abusassem de
-                    estratégias imprudentes que fazem sentido nesse cenário.</p>
+                    subindo, mesmo após crises profundas como a de 2008 e de 2000. Isso permitiu que os investidores
+                    abusassem de
+                    estratégias "imprudentes" que fazem sentido nesse cenário majoritário de alta.</p>
                 <figure class="image-zoom">
                     <img class="img" src="./img/Buy The Dip vs DCA .png"
                         alt="Gráfico comparando estratégias Buy The Dip x DCA">
-                    <figcaption>Gráfico simulando as estratégias Buy the Dip x DCA aplicados na bolsa americana S&P 500.
+                    <figcaption>Gráfico simulando as estratégias "Buy the Dip" x DCA aplicados na bolsa americana S&P
+                        500.
                         Ilustrando que mesmo acertando fundos milagrosamente a estratégia não supera o DCA.<br> <a
                             href="https://bastter.com/mercado/forum/873181/buy-the-dip-vs-dca"> Bastter.com </a>
                     </figcaption>
                 </figure>
-                <p>Uma dessas estratégias é "Buy the Drip" (Compre o fundo) ou até mesmo a famosa "Buy and Hold". No
-                    entanto, no mercado de Bitcoin, que é muito volátil e cíclico, essas estratégias não funcionam bem.
-                    Portanto, um estudo comparou a estratégia Buy the Drip com a estratégia DCA e mostrou que é muito
-                    difícil acertar o momento certo de comprar, mesmo no mercado tradicional, e ainda assim a
-                    performance da estratégia DCA não é inferior à da estratégia Buy the Drip. Sendo que, para o
-                    bem-estar emocional do investidor, a estratégia DCA acaba sendo muito melhor.</p>
+                <p>Uma dessas estratégias "imprudentes" que funcionam bem apenas em mercados em alta é a "Buy the Dip"
+                    (Compre o fundo) ou até mesmo a famosa "Buy and Hold". No
+                    entanto, no mercado do Bitcoin, que é muito volátil e cíclico, essas estratégias não funcionam bem.
+                    A imagem acima mostra um estudo que comparou a estratégia "Buy the Dip" com a estratégia DCA e
+                    mostrou que, mesmo sabendo milagrosamente o "fundo" das quedas no mercado tradicional, ainda assim a
+                    performance da estratégia DCA foi superior à da estratégia "Buy the Dip".</p>
+
+                <p>Ou seja, na maioria das situações, a preocupação e o stress em acertar o fundo não compensam. Para o bem-estar emocional do investidor e até na performance, a estratégia DCA acaba sendo muito melhor, pois não é necessário se preocupar com o preço e notícias do mercado, apenas aportes pequenos e constantes. É diante dessa análise que nasce uma estratégia mista, que aproveita e une os benefícios de cada estratégia, principalmente para o mercado do Bitcoin que não vive apenas de altas, e sim de ciclos.</p>
             </div>
         </section>
         <section>
@@ -177,7 +195,7 @@
         <section id="contact" class="form-section">
             <div class="form-container">
                 <div class="form-header">
-                    <h5>Entre em contato conosco!</h5>
+                    <h5>Entre em contato!</h5>
                     <h6>Se você tiver alguma dúvida ou sugestão sobre nossa Extensão de Alerta de Indicador Bitcoin ou
                         Estratégia DCA CounterFlow, sinta-se à vontade para nos enviar uma mensagem usando o formulário
                         abaixo.</h6>
@@ -214,6 +232,9 @@
     <script src="./js/zoom.js"> </script>
     <script src="./js/lightmode.js"> </script>
     <script src="./js/menu.js"></script>
+    <script src="./nupl.js"></script>
+    <script src="./popup.js"></script>
+
 
 </body>
 
