@@ -27,10 +27,11 @@ body {
     width: 280px;
     max-height: 100vh;
     min-height: 680px;
-    background-color: #363636;
+    background-image: linear-gradient(to bottom, #414141, #00000038);
     padding: 10px;
     z-index: 5;
     overflow-y: auto;
+    backdrop-filter: blur(550px);
 }
 
 .menu-lateral::after {
@@ -80,20 +81,12 @@ body {
     text-decoration: none;
 }
 
-.menu-topics.active {
-    background-color: rgb(100, 100, 100);
-    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.692), #363636 70%);
-    /* Adiciona cor sólida para metade inferior do botão */
-    color: orange;
-}
-
 .menu-topics li.active {
     background-color: rgb(100, 100, 100);
     background-image: linear-gradient(to left, rgba(255, 145, 0, 0.486), #363636 70%);
     /* Adiciona cor sólida para metade inferior do botão */
     color: orange;
 }
-
 
 .menu-options {
     position: absolute;
@@ -188,10 +181,11 @@ footer p {
 
 section:nth-of-type(odd) {
     background-color: #2a2a2a00;
+    background-image: linear-gradient(to right, #2b26388c, #6e6e6e00 70%);
 }
 
 section:nth-of-type(even) {
-    background-image: linear-gradient(to left, rgba(12, 0, 29, 0.479), #12013328 70%);
+    background-image: linear-gradient(to left, rgba(19, 5, 39, 0.164), #160c2b34 70%);
 }
 
 section:nth-of-type(even) h3 {
