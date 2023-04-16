@@ -81,8 +81,11 @@ body {
 
 .menu-topics li.active {
     background-color: rgb(100, 100, 100);
-}
-
+    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.692), #363636 70%);
+    /* Adiciona cor sólida para metade inferior do botão */
+  }
+  
+  
 .menu-options {
     position: absolute;
     left: -10px;
