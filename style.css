@@ -27,7 +27,7 @@ body {
     width: 280px;
     max-height: 100vh;
     min-height: 680px;
-    background-image: linear-gradient(to bottom, #15111f, #100818e8);
+    background-image: linear-gradient(to bottom, #15111f, #100818);
     padding: 10px;
     z-index: 5;
     overflow-y: auto;
