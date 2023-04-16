@@ -37,7 +37,8 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 60px; /* valor negativo igual à altura do elemento */
+    bottom: 60px;
+    /* valor negativo igual à altura do elemento */
     width: 100%;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
@@ -84,16 +85,16 @@ body {
     background-image: linear-gradient(to left, rgba(255, 145, 0, 0.692), #363636 70%);
     /* Adiciona cor sólida para metade inferior do botão */
     color: orange;
-  }
-  
-  .menu-topics li.active {
+}
+
+.menu-topics li.active {
     background-color: rgb(100, 100, 100);
     background-image: linear-gradient(to left, rgba(255, 145, 0, 0.486), #363636 70%);
     /* Adiciona cor sólida para metade inferior do botão */
     color: orange;
-  }
-  
-  
+}
+
+
 .menu-options {
     position: absolute;
     left: -10px;
@@ -172,11 +173,6 @@ li {
     margin-bottom: 10px;
 }
 
-a {
-    color: rgb(255, 153, 0);
-}
-
-
 footer {
     background-color: #2a2a2a;
     color: #FFFFFF;
@@ -195,7 +191,7 @@ section:nth-of-type(odd) {
 }
 
 section:nth-of-type(even) {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.589), #3636366c 70%);
+    background-image: linear-gradient(to left, rgba(12, 0, 29, 0.479), #12013328 70%);
 }
 
 section:nth-of-type(even) h3 {
@@ -203,7 +199,6 @@ section:nth-of-type(even) h3 {
 }
 
 .hero .dark {
-    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -349,7 +344,7 @@ label {
 }
 
 #linguage-button {
-    margin-bottom: 5px;
+    margin-bottom: 225px;
 }
 
 input {
