@@ -1,5 +1,5 @@
 body {
-    background-color: #0a0410;
+    background-color: #0d0414;
     color: #e6e6e6;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -27,7 +27,7 @@ body {
     width: 280px;
     max-height: 100vh;
     min-height: 680px;
-    background-image: linear-gradient(to right, #000000, #070111 90%);
+    background-image: linear-gradient(to right, #000000, #0b031a 90%);
     padding: 10px;
     z-index: 5;
     overflow-y: auto;
