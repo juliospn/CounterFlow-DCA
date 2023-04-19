@@ -8,7 +8,12 @@
     <title>DCA com Foco no Sentimento do Mercado</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/indicadores.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BM4D9YYSQ"></script>
@@ -23,10 +28,12 @@
 
 <body>
     <header>
+        <button id="menu-toggle" class="cabecalho__menu" data-target="#menu-lateral">
+            <i class="fas fa-bars"></i>
+        </button>
         <nav>
             <div id="menu-lateral" class="menu-lateral">
-                <div style="
-                text-align: center;">
+                <div style="text-align: center;">
                     <a href="#DCA"><img src="./img/logo.png" class="logo"></a>
                 </div>
                 <div class="div-indicadores">
@@ -68,7 +75,6 @@
         </section>
         <section>
             <div class="conteudo-centralizado">
-
                 <h3 id="DCA">O que é DCA ?</h3>
                 <p>O DCA (Dollar Cost Averaging) é uma estratégia de investimento que envolve a compra regular de ativos
                     em intervalos constantes. Isso ajuda a reduzir o impacto das flutuações do mercado no longo prazo,
@@ -95,10 +101,8 @@
                     <li>⚬ Reduz as oscilações de humor diante da volatilidade dos preços.</li>
                     <li>⚬ Consegue aproveitar as oportunidades de mercado quando aparecerem.</li>
                     <li>⚬ Ajuda a maximizar os retornos no longo prazo.</li>
-                    <li>⚬ Ao fazer compras de Bitcoin e retirar das corretoras o investidor estará contribuindo para
-                        saúde do mercado.</li>
-                    <li>⚬ Estratégia fundamentada e antifrágil, com a prática e resultados o investidor se sente cada
-                        vez mais confortável e habituado.</li>
+                    <li>⚬ Ao fazer compras de Bitcoin e retirar das corretoras o investidor estará contribuindo para saúde do mercado.</li>
+                    <li>⚬ Estratégia fundamentada e antifrágil, com a prática e resultados o investidor se sente cada vez mais confortável e habituado.</li>
                 </ul>
             </div>
         </section>
@@ -110,14 +114,12 @@
                     do mundo, desde o rompimento do lastro do ouro em 1971, o mercado acionário está altamente
                     correlacionado aos estímulos financeiros. Há correções e quedas, mas o índice do SP 500 está sempre
                     subindo, mesmo após crises profundas como a de 2008 e de 2000. Isso permitiu que os investidores
-                    abusassem de
-                    estratégias "imprudentes" que fazem sentido nesse cenário majoritário de alta.</p>
+                    abusassem de estratégias "imprudentes" que fazem sentido nesse cenário majoritário de alta.</p>
                 <figure class="image-zoom">
                     <img class="img" src="./img/Buy The Dip vs DCA .png"
                         alt="Gráfico comparando estratégias Buy The Dip x DCA">
                     <figcaption>Gráfico simulando as estratégias "Buy the Dip" x DCA aplicados na bolsa americana S&P
-                        500.
-                        Ilustrando que mesmo acertando fundos milagrosamente a estratégia não supera o DCA.<br> <a
+                        500. Ilustrando que mesmo acertando fundos milagrosamente a estratégia não supera o DCA.<br> <a
                             href="https://bastter.com/mercado/forum/873181/buy-the-dip-vs-dca"> Bastter.com </a>
                     </figcaption>
                 </figure>
@@ -195,13 +197,10 @@
                 <h3 id="how-to">Como aplicar a estratégia</h3>
                 <p>Menos é mais. "De quatro anos em quatro anos" um ciclo é iniciado devido ao halving, que provoca
                     altas e logo depois correções de preço. A estratégia do DCA com Funding Rate e NUPL envolve primeiro
-                    utilizar o indicador NUPL para entender
-                    em qual momento do ciclo do Bitcoin se está.</p>
-                <p> Se o NUPL estiver em valores menores que 20%, o ideal é
-                    fazer aportes pequenos e constantes sempre que os gatilhos de funding rate aparecerem. Esses
+                    utilizar o indicador NUPL para entender em qual momento do ciclo do Bitcoin se está.</p>
+                <p> Se o NUPL estiver em valores menores que 20%, o ideal é fazer aportes pequenos e constantes sempre que os gatilhos de funding rate aparecerem. Esses
                     gatilhos sinalizam uma fase de ciclo de baixa na região sobrevendida, que podem ser uma ótima
-                    oportunidade
-                    de compra pensando no médio e longo prazo.</p>
+                    oportunidade de compra pensando no médio e longo prazo.</p>
                 <p>Além disso, é possível usar a mesma estratégia quando o preço do Bitcoin entrar na parte do ciclo de
                     sobrecomprado. Nesse caso, também se utiliza do NUPL e do Funding Rate para realizar pequenas vendas
                     na intenção de acumular caixa para quando a época de sobrevenda chegar novamente.</p>
@@ -243,14 +242,12 @@
     </footer>
     <script src="./js/particles.js"></script>
     <script src="./js/app.js"></script>
-    <script src="./js/index.js"></script>
     <script src="./js/zoom.js"> </script>
     <script src="./js/lightmode.js"> </script>
-    <script src="./js/menu.js"></script>
-    <script src="./nupl.js"></script>
-    <script src="./popup.js"></script>
-
-
+    <script src="./js/nupl.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

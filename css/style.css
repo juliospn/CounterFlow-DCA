@@ -1,0 +1,226 @@
+body {
+    background-color: #0d0414;
+    color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    transition: all 1s ease;
+}
+
+.logo {
+    width: 260px;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+
+.conteudo {
+    margin-left: 270px;
+    padding-left: 30px;
+}
+
+.conteudo-centralizado {
+    min-width: 250px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #36363600;
+    padding: 100px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 450px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #7247e7, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 2px solid #A24BD3;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+section:nth-of-type(n+2):nth-of-type(even) {
+    background-color: #02020c;
+}
+
+section:nth-of-type(even) h3 {
+    color: #d88c00;
+}
+
+.image-zoom:hover img {
+    cursor: zoom-in;
+}
+
+.image-zoom {
+    position: relative;
+}
+
+.image-zoom img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1100px;
+    transition: transform 0.43s ease-in-out;
+}
+
+.image-zoom.zoomed img {
+    transform: scale(1.3);
+    cursor: zoom-out;
+}
+
+.image-zoom.zoomed:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+figure {
+    margin-inline: 0px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+
+#particle-js {
+    position: absolute;
+}
+
+#particles-js canvas {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    opacity: 0.67;
+}
+
+#light-mode-button {
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+#linguage-button {
+    margin-bottom: 225px;
+}
+
+a:-webkit-any-link {
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 770px) {
+    body {
+        position: relative;
+    }
+    
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+
+    section {
+        padding: 30px;
+        min-width: 300px;
+    }
+
+    .conteudo {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    footer p {
+        padding-left: 0px;
+    }
+
+    figure {
+        margin-inline: 0px;
+    }
+
+    figcaption {
+        font-size: 11px;
+    }
+
+    #particles-js canvas {
+        margin-left: 0px;
+    }
+
+    #particles-js canvas {
+        max-height: 700px;
+        min-width: 360px
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .logo {
+        width: 210px;
+        margin-bottom: 5px;
+    }
+
+    .div-indicadores::after {
+        display: none;
+    }
+
+    .menu-topics {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-height: 867px) {
+    #particles-js canvas {
+        min-height: 700px;
+    }
+}
