@@ -145,9 +145,10 @@ header {
 @media only screen and (max-width: 770px) {
     .menu-lateral {
         position: fixed;
-        transition: all 1s ease;
+        transition: all 0.8s ease;
         transform: translateX(-100%);
-        max-height: 850px
+        max-height: 850px;
+        min-height: 830px;
     }
 
     .menu-lateral .logo {
