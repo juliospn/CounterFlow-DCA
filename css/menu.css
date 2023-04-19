@@ -145,8 +145,7 @@ header {
         position: fixed;
         transition: all 0.8s ease;
         transform: translateX(-100%);
-        max-height: 850px;
-        min-height: 830px;
+        max-height: 830px;
     }
 
     .menu-lateral .logo {
@@ -213,5 +212,26 @@ header {
         z-index: 10;
         color: black;
         border-radius: 0;
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+.menu-topics {
+    margin-top: 15px;
+    }
+
+    .logo {
+        width: 180px;
+        margin-bottom: 0;
+    }
+
+    .menu-lateral{
+        height: fit-content;
+        height: 790px;
+    }
+
+    .menu-options {
+        bottom: 0;
     }
 }
