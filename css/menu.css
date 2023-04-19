@@ -212,7 +212,7 @@ header {
         z-index: 10;
         color: black;
         border-radius: 0;
-        background-color: blue;
+        background-color: rgb(255, 255, 255);
     }
 }
 
@@ -228,10 +228,13 @@ header {
 
     .menu-lateral{
         height: fit-content;
-        height: 790px;
     }
 
     .menu-options {
-        bottom: 0;
+        bottom: -50px;
+    }
+    
+    .menu-lateral::after {
+        bottom:8px;
     }
 }
