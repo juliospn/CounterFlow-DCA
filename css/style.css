@@ -149,6 +149,13 @@ a:-webkit-any-link {
 }
 
 /* Estilos para telas pequenas */
+
+@media only screen and (max-width: 670px) {
+    section {
+        min-width: 300px;
+    }
+}
+
 @media only screen and (max-width: 770px) {
     body {
         position: relative;
