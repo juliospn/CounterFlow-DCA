@@ -136,6 +136,8 @@ header {
         display: none;
         position: relative;
         z-index: 10;
+        color: black;
+        border-radius: 0;
     }
 
 }
