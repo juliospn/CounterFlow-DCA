@@ -28,7 +28,7 @@ header {
     bottom: 0;
     width: 280px;
     max-height: 100vh;
-    min-height: 680px;
+    min-height: 610px;
     background-image: linear-gradient(to right, #000000, #0b031a 90%);
     padding: 10px;
     z-index: 5;
@@ -168,7 +168,6 @@ header {
 
     .menu-lateral ul li a {
         display: block;
-        padding: 5px;
         text-decoration: none;
         color: #ffffff;
         transition: all .5s ease;
@@ -213,28 +212,30 @@ header {
         color: black;
         border-radius: 4px;
         background-color: rgb(255, 255, 255);
+        height: 40px;
     }
 }
 
 @media only screen and (max-width: 668px) {
     .menu-topics {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
-    .logo {
-        width: 180px;
+    .menu-lateral .logo {
+        width: 170px;
         margin-bottom: 0;
     }
 
-    .menu-lateral{
-        height: fit-content;
-    }
-
     .menu-options {
-        bottom: -50px;
+        bottom: 15px;
     }
     
     .menu-lateral::after {
-        bottom:8px;
+        bottom: 63px;
     }
+
+    section {
+        min-width: 300px;
+    }
+
 }

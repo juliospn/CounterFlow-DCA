@@ -37,3 +37,11 @@
 .positive {
     color: rgb(224, 113, 142);
 }
+
+@media only screen and (max-width: 668px) {
+
+.div-indicadores {
+    padding-top: 0px;
+    flex-wrap: nowrap;
+    }
+}
