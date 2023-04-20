@@ -10,7 +10,7 @@ header {
 
 .body--menu-lateral-ativo {
     margin-left: 290px;
-    transition: margin-left 1.25s ease;
+    transition: margin-left 1.3s ease;
   }  
 
 .menu-lateral .logo a {
