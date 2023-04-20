@@ -140,6 +140,27 @@ header {
 
 }
 
+@media only screen and (min-width: 376px) and (max-width: 770px) {
+    section {
+        min-width: 354px;
+    }
+
+    canvas {
+        min-width: 354px;
+    }
+    main {
+        min-width: 354px;
+    }
+
+    h2 {
+        min-width: 374px;
+    }
+
+    h6 {
+        min-width: 344px;
+    }
+}
+
 @media only screen and (max-width: 770px) {
     .menu-lateral {
         position: fixed;
@@ -216,7 +237,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 376px) {
     .menu-topics {
         margin-top: 10px;
     }
