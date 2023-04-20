@@ -227,11 +227,11 @@ header {
     }
 
     .menu-options {
-        bottom: 7px;
+        bottom: 5px;
     }
     
     .menu-lateral::after {
-        bottom: 63px;
+        bottom: 55px;
     }
 
     section {
