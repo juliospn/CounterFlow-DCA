@@ -227,7 +227,7 @@ header {
     }
 
     .menu-options {
-        bottom: 15px;
+        bottom: 7px;
     }
     
     .menu-lateral::after {
@@ -238,4 +238,14 @@ header {
         min-width: 300px;
     }
 
+    .menu-lateral li {
+        margin-bottom: 10px;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 14.5px;
+    }
+
+    .menu-lateral--ativo {
+        height: 97vh;
+    }
 }
