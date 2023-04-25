@@ -28,7 +28,7 @@ header {
     bottom: 0;
     width: 280px;
     max-height: 100vh;
-    min-height: 610px;
+    min-height: 680px;
     background-image: linear-gradient(to right, #000000, #0b031a 90%);
     padding: 10px;
     z-index: 5;
