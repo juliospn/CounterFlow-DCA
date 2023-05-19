@@ -11,7 +11,7 @@ header {
 .body--menu-lateral-ativo {
     margin-left: 290px;
     transition: margin-left 1.3s ease;
-  }  
+}
 
 .menu-lateral .logo a {
     color: #ffffff;
@@ -28,7 +28,7 @@ header {
     bottom: 0;
     width: 280px;
     max-height: 100vh;
-    min-height: 680px;
+    min-height: 650px;
     background-image: linear-gradient(to right, #000000, #0b031a 90%);
     padding: 10px;
     z-index: 5;
@@ -39,17 +39,19 @@ header {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 61px; /* valor negativo igual à altura do elemento */
+    bottom: 61px;
+    /* valor negativo igual à altura do elemento */
     width: 100%;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .menu-topics li a.active {
-    background-color: #F4A460; /* Altere para a cor desejada */
+    background-color: #F4A460;
+    /* Altere para a cor desejada */
 }
 
 .menu-topics {
-    margin-top: calc(16vh - 105px);
+    margin-top: calc(18vh - 105px);
     margin-bottom: 12px;
 }
 
@@ -82,7 +84,8 @@ header {
 
 .menu-topics li.active {
     background-color: rgba(100, 100, 100, 0);
-    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.486), #36363600 70%); /* Adiciona cor sólida para metade inferior do botão */
+    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.486), #36363600 70%);
+    /* Adiciona cor sólida para metade inferior do botão */
     color: orange;
 }
 
@@ -148,6 +151,7 @@ header {
     canvas {
         min-width: 354px;
     }
+
     main {
         min-width: 354px;
     }
@@ -167,12 +171,6 @@ header {
         transition: all 1s ease;
         transform: translateX(-100%);
         max-height: 830px;
-    }
-
-    .menu-lateral .logo {
-        text-align: center;
-        padding: 10px 0;
-        width: 220px;
     }
 
     .menu-lateral ul {
@@ -242,15 +240,10 @@ header {
         margin-top: 10px;
     }
 
-    .menu-lateral .logo {
-        width: 170px;
-        margin-bottom: 0;
-    }
-
     .menu-options {
         bottom: 5px;
     }
-    
+
     .menu-lateral::after {
         bottom: 55px;
     }

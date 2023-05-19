@@ -11,8 +11,7 @@ body {
 }
 
 .logo {
-    width: 260px;
-    padding-right: 8px;
+    width: 290px;
     padding-top: 15px;
 }
 
@@ -216,10 +215,6 @@ a:-webkit-any-link {
 }
 
 @media only screen and (max-height: 800px) {
-    .logo {
-        width: 210px;
-        margin-bottom: 5px;
-    }
 
     .div-indicadores::after {
         display: none;
