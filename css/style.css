@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
 body {
     background-color: #0d0414;
     color: #e6e6e6;
@@ -132,7 +132,7 @@ section img {
 }
 
 #particles-js canvas {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     opacity: 0.67;
@@ -163,7 +163,7 @@ a:-webkit-any-link {
     body {
         position: relative;
     }
-    
+
     .hero {
         padding: 20px;
     }
@@ -229,4 +229,24 @@ a:-webkit-any-link {
     #particles-js canvas {
         min-height: 700px;
     }
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+    background-color: #000;
+    /* Cor de fundo da barra de rolagem */
+}
+
+/* Estilizando o indicador da barra de rolagem (thumb) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Cor da thumb (indicador) */
+}
+
+/* Estilizando a borda da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #000;
+    /* Cor da track (borda) */
 }
