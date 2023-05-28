@@ -101,6 +101,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     bottom: 0;
+    margin-left: 13px;
 }
 
 .menu-options li:hover {
@@ -212,7 +213,7 @@ header {
     #light-mode-button {
         margin-top: 3px;
         padding-top: 3px;
-        padding-bottom: 3px;
+        padding-bottom: 2px !important;
         margin-bottom: 10px;
         align-items: center;
         display: flex;
