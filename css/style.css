@@ -36,6 +36,10 @@ body {
     min-height: 450px;
 }
 
+.hero h1 {
+    max-width: 950px;
+}
+
 h1 {
     font-size: 50px;
     margin-bottom: 20px;
