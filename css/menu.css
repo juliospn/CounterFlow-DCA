@@ -32,9 +32,7 @@ header {
     background-image: linear-gradient(to right, #000000, #0b031a 90%);
     padding: 10px;
     z-index: 5;
-    overflow-y: auto;
     border-right: solid 1px rgb(122, 122, 122);
-    box-shadow: #0b031a;
 }
 
 .menu-lateral::after {
