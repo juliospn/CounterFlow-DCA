@@ -172,7 +172,7 @@ header {
         position: fixed;
         transition: all 1s ease;
         transform: translateX(-100%);
-        max-height: 830px;
+        max-height: 780px;
     }
 
     .menu-lateral ul {
